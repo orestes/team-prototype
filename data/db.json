@@ -1,15 +1,16 @@
 {
   "team": [
     {
-      "name": {
-        "first": "magdalena",
-        "last": "santos"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/64.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/64.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/64.jpg"
-      }
+      "id": "u1",
+      "first": "john",
+      "last": "doe",
+      "picture": "/assets/2.jpg"
+    },
+    {
+      "id": "u2",
+      "first": "Jane",
+      "last": "doe",
+      "picture": "/assets/3.jpg"
     }
   ]
 }

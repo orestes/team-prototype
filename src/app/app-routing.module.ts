@@ -1,7 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import {TeamPageComponent} from "./team-page/team-page.component";
+
+const routes: Routes = [
+  {
+    path: '',
+    pathMatch: 'full',
+    component: TeamPageComponent,
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

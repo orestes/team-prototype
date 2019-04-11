@@ -1,0 +1,6 @@
+<div class="row" *ngFor="let person of people">
+  <div class="col">
+    <span>{{ person.first }} {{ person.last }} </span>
+    <img [src]="person.picture" alt="">
+  </div>
+</div>
